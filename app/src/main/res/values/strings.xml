@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinalNoteApp</string>
+    <string name="title">default title</string>
+    <string name="body">default body</string>
+    <string name="dueDate">default dueDate</string>
+    <string name="creationDate">default creationDate</string>
+    <string name="editedDate">default last edited date</string>
+    <string name="preferred_layout">PREFERRED LAYOUT</string>
+</resources>

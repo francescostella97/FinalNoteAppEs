@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Open"
+        android:id="@+id/context_open">
+
+    </item>
+    <item android:title="Color"
+    android:id="@+id/context_color">
+
+    </item>
+    <item
+    android:title="Delete"
+    android:id="@+id/context_delete">
+
+    </item>
+
+</menu>

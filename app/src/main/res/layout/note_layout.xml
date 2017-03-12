@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/note_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/title"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/note_specialbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTint="@color/blue" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/note_body"
+        android:text="@string/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/body"/>
+    <TextView
+        android:id="@+id/note_creationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/creationDate"
+        android:paddingTop="10dp"
+        android:textSize="@dimen/date"/>
+    <TextView
+        android:id="@+id/note_editedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editedDate"
+        android:paddingTop="10dp"
+        android:textSize="@dimen/date"/>
+    <TextView
+        android:id="@+id/note_dueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dueDate"
+        android:paddingTop="10dp"
+        android:textSize="@dimen/date"/>
+
+</LinearLayout>
